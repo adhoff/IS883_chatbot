@@ -168,8 +168,9 @@ def createCalenderEvent(date, time, bev="drink", size="", temp="", email_invitat
                 'timeZone': 'America/New_York',
             },
             'attendees': [
-                {'email': email_invitation},
-            ]
+    {'email': 'lpage@example.com'},
+    {'email': 'sbrin@example.com'},
+  ],
         }
     else:
         event = {
